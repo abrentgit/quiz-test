@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>World Cup Quiz</title>
+    <meta name="description" content="A quiz about World Cup History">
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>The World Cup Quiz</h1>
+      <div class="logoContainer">
+        <a href="index.html">
+         <img class="logo hidden" src="http://blog.picol.org/wp-content/uploads/2010/06/soccer_512.png" alt="soccerball" width="200px" height:"200px"/>
+         <img class="icon" src="https://png.icons8.com/ios/1600/soccer-goal.png" alt="goalNet" width="150px" height:"150px"/>
+        </a>
+      </div>
+    </header>
+    <main role="main">
+      <div class="quizStart">
+        <p>Think you can take on the world? Hit Start to Kickoff!</p>
+        <button type="button" class="startButton">Start</button>
+      </div>
+      <div class="questionAnswerForm"></div>
+      <div class="results">
+        <ul>
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

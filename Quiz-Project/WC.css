@@ -1,0 +1,188 @@
+header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  color: white;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+.logoContainer {
+  margin-bottom: 20px;
+}
+
+body {
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+  text-align: center;
+  font-size: 16px;
+}
+
+.quizStart {
+  color: cornsilk;
+  text-align: center;
+  line-height: 300%;
+}
+
+.startButton {
+  border-color: #e7e7e7;
+  border: 2px grey;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'PT Mono', monospace;
+}
+
+.answerContainer {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: left;
+  font-size:16px;
+}
+
+.results {
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+legend {
+  font-size:16px;
+}
+
+.submitButton {
+  border-color: #e7e7e7;
+  border: 2px grey;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'PT Mono', monospace;
+}
+
+.submitButton:hover {
+  background: #e7e7e7;
+}
+
+.nextButton {
+  border-color: #e7e7e7;
+  border: 2px grey;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  margin-top: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'PT Mono', monospace;
+}
+
+.nextButton:hover {
+  background: #e7e7e7;
+}
+
+.restartButton {
+  border-color: #e7e7e7;
+  border: 2px grey;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'PT Mono', monospace;
+}
+
+.restartButton:hover {
+  background: #e7e7e7;
+}
+
+.quizStart {
+  font-family: 'PT Mono', monospace;
+  font-size: 16px;
+  font-style: oblique;
+}
+
+.questionAnswerForm {
+  font-family: 'PT Mono', monospace;
+  color: cornsilk;
+}
+
+.correctFeedback, .wrongFeedback {
+  font-size: 15px;
+}
+
+ul {
+  font-family: 'PT Mono', monospace;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+fieldset {
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.logoContainer {
+  pointer-events: none;
+}
+
+#submitEle {
+  margin-top: 15px;
+}
+
+.results {
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+.answerContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: left;
+  font-size:12px;
+}
+
+ header {
+  font-size: 20px;
+}
+
+body {
+  font-size: 14px;
+}
+
+.logo, .icon {
+  width: 80px;
+}
+
+h2 {
+ font-size: 14px;
+}
+
+.startButton {
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+.answerContainer {
+  padding-left: 20px;
+}
+
+.submitButton {
+  font-size: 14px;
+}
+
+.nextButton {
+  font-size: 14px;
+}
+
+.results {
+  padding-top: 15px;
+  font-size: 14px;
+}
+}
+
