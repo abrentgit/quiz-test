@@ -1,7 +1,7 @@
 header {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
-  color: white;
+  color:#242424;
   font-style: oblique;
   text-transform: uppercase;
 }
@@ -11,13 +11,14 @@ header {
 }
 
 body {
-  background: linear-gradient(to right, #fdbb2d, #22c1c3);
-  text-align: center;
-  font-size: 16px;
+background: -webkit-linear-gradient(to bottom, #ffdde1); 
+background: #ee9ca7;
+text-align: center;
+font-size: 16px;
 }
 
 .quizStart {
-  color: cornsilk;
+  color: #002900;
   text-align: center;
   line-height: 300%;
 }
