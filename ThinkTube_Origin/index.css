@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 60px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* body {
+  background-color: azure;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.more-button {
+  display: none;
+}
+
+.js-search-results {
+  display: none;
+  max-width: 500px;
+  background-color: azure;
+  padding: 20px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
